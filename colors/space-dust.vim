@@ -1,5 +1,5 @@
-" Deep Space - An intergalactically friendly color scheme for Vim
-" Author: Brandon Siders
+" Space Dust - A color scheme for Vim based on the colors of nebula
+" Author: Dustin Morse
 " License: MIT
 
 highlight clear
@@ -9,9 +9,9 @@ if exists('syntax_on')
 endif
 
 set background=dark
-let g:colors_name = 'deep-space'
+let g:colors_name = 'space_dust'
 
-let g:deepspace_italics = get(g:, 'deepspace_italics', 0)
+let g:spacedust_italics = get(g:, 'spacedust_italics', 0)
 
 " Color Palette
 let s:gray1     = '#1b202a'
@@ -30,7 +30,7 @@ let s:pink      = '#c47ebd'
 
 function! s:HL(group, fg, bg, attr)
     let l:attr = a:attr
-    if !g:deepspace_italics && l:attr ==# 'italic'
+    if !g:spacedust_italics && l:attr ==# 'italic'
         let l:attr = 'none'
     endif
 

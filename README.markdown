@@ -7,12 +7,6 @@ A colorful, dark color scheme, inspired by Solarized, Gruvbox and spacedust
 
 Install the color scheme by adding it to your `~/.vim/colors` directory
 
-```bash
-mkdir -p ~/.vim/colors
-cd ~/.vim/colors
-curl -O https://raw.githubusercontent.com/nanotech/spacedust.vim/master/colors/spacedust.vim
-```
-
 Spacedust can also be installed through plugin managers such as
 [dein.vim][dein], [Pathogen][pathogen], [VAM][vam],
 [vim-plug][vim-plug], [Vundle][vundle], etc.
@@ -146,21 +140,3 @@ suggested), add this to your .vimrc:
     let g:spacedust_use_lowcolor_black = 1
 
 *This option was changed to be disabled by default in version 1.7.*
-
-## Screenshots
-
-![][preview-ss]
-
-The font in the screenshot is 10pt [Monaco][monaco]:
-
-```vim
-set guifont=Monaco:h10 noanti
-```
-
-
-[ir_black]: https://web.archive.org/web/20140211124943/http://toddwerth.com/2008/01/25/a-black-os-x-leopard-terminal-theme-that-is-actually-readable/
-[twilight]: http://www.vim.org/scripts/script.php?script_id=1677
-[vimscript]: http://www.vim.org/scripts/script.php?script_id=2555
-[preview-ss]: https://nanotech.nanotechcorp.net/downloads/spacedust-preview.png
-[ss-anchor]: #screenshots
-[monaco]: https://en.wikipedia.org/wiki/Monaco_(typeface)
