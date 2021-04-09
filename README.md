@@ -1,2 +1,0 @@
-# spacedust.vim
-
