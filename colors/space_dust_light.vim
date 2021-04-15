@@ -77,6 +77,8 @@ hi Conditional      ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ff
 hi Constant         ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ffd       guibg=NONE      gui=NONE
 hi Define           ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ffd       guibg=NONE      gui=NONE
 hi Error            ctermfg=232     ctermbg=9       cterm=NONE      guifg=#171010       guibg=#d51a29   gui=NONE
+hi ExtraWhitespace  ctermfg=NONE    ctermbg=232     cterm=NONE      guifg=NONE          guibg=#171010   gui=NONE
+hi ExtraWhitespace  ctermfg=NONE    ctermbg=256     cterm=NONE      guifg=NONE          guibg=#fdefd5   gui=NONE
 hi Float            ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ffd       guibg=NONE      gui=NONE
 hi Function         ctermfg=26      ctermbg=NONE    cterm=NONE      guifg=#2aa198       guibg=NONE      gui=NONE
 hi Identifier       ctermfg=232     ctermbg=NONE    cterm=NONE      guifg=#171010       guibg=NONE      gui=italic
@@ -88,8 +90,8 @@ hi PreCondit        ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ff
 hi PreProc          ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ffd       guibg=NONE      gui=NONE
 hi Repeat           ctermfg=98      ctermbg=NONE    cterm=NONE      guifg=#6f4ffd       guibg=NONE      gui=NONE
 hi Special          ctermfg=79      ctermbg=NONE    cterm=NONE      guifg=#2aa198       guibg=NONE      gui=NONE
-hi SpecialComment   ctermfg=64      ctermbg=NONE    cterm=NONE      guifg=#444444       guibg=NONE      gui=NONE
-hi SpecialKey       ctermfg=64      ctermbg=NONE    cterm=NONE      guifg=#444444       guibg=#3A3A3A   gui=NONE
+hi SpecialComment   ctermfg=64      ctermbg=NONE    cterm=NONE      guifg=#98971a       guibg=NONE      gui=NONE
+hi SpecialKey       ctermfg=64      ctermbg=NONE    cterm=NONE      guifg=#98971a       guibg=NONE      gui=NONE
 hi SpellBad         ctermfg=232     ctermbg=9       cterm=NONE      guifg=#171010       guibg=#d51a29   gui=undercurl
 hi SpellCap         ctermfg=232     ctermbg=26      cterm=NONE      guifg=#171010       guibg=#2aa198   gui=undercurl
 hi SpellRare        ctermfg=232     ctermbg=98      cterm=NONE      guifg=#171010       guibg=#6f4ffd   gui=undercurl
