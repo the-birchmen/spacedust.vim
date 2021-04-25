@@ -56,7 +56,7 @@ hi StatusLineNC     ctermfg=232     ctermbg=240     cterm=NONE      guifg=#17101
 hi Title            ctermfg=232     ctermbg=NONE    cterm=NONE      guifg=#171010       guibg=NONE      gui=NONE
 hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi VertSplit        ctermfg=240     ctermbg=240     cterm=NONE      guifg=#444444       guibg=#444444   gui=NONE
-hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#444444   gui=NONE
+hi Visual           ctermfg=256     ctermbg=136     cterm=NONE      guifg=#171010       guibg=#b58900   gui=NONE
 hi WarningMsg       ctermfg=232     ctermbg=9       cterm=NONE      guifg=#171010       guibg=#d51a29   gui=NONE
 hi WildMenu         ctermfg=256     ctermbg=136     cterm=NONE      guifg=#fdefd5       guibg=#b58900   gui=NONE
 hi NERDTreeUp       ctermfg=9       ctermbg=NONE    cterm=NONE      guifg=#d51a29       guibg=NONE      gui=NONE
